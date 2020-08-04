@@ -1,7 +1,7 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         from copy import deepcopy 
-        a = deepcopy(x)  
+        num = deepcopy(x)  
         
         if (x == 0):
             return True
