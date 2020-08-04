@@ -15,10 +15,8 @@ class Solution:
             
             rev = rev * 10 + pop
           
-        if (num == rev):
-            return True
-        else:
-            return False
+        return num == rev
+           
         
 
 n = Solution().isPalindrome(121)
