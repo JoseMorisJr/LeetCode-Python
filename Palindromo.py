@@ -15,7 +15,7 @@ class Solution:
             
             rev = rev * 10 + pop
           
-        if a == rev:
+        if (num == rev):
             return True
         else:
             return False
